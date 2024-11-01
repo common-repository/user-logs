@@ -1,0 +1,86 @@
+#userlogs_search_form .userlogs_input {
+	width: 120px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	min-height: 25px;
+	height: 30px;
+}
+#userlogs-clear-button, #userlogs-submit-button {
+	font-size: 12px;
+	min-height: 25px;
+	height: 30px;
+	line-height: 28px;
+}
+
+#userlogs_pagination span {
+	padding: 5px;
+	font-size: 14px;
+}
+
+@media screen and (max-width: 1750px) {
+	#userlogs_pagination {
+		margin-top: 10px;
+		width: 100%;
+		text-align: left;
+	}
+}
+
+#userlogs_pagination span.current span{
+	font-weight: bold;
+	color: #000;
+}
+
+
+#userlogs_graph_container {
+	width: 100%;
+	padding: 10px 10px 0 0;
+}
+
+#userlogs_graph_container .heading {
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+#userlogs-settings-wrap section {
+	height: 100px;
+	background-color: #fff;
+	padding: 15px 0 10px 5px;
+	border: 1px solid #c3c4c7;
+	margin-top: -1px;
+}
+#userlogs-settings-wrap .nav-tab-active {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#userlogs-settings-wrap .userlogs_cron_days {
+	width: 50px;
+	margin-bottom: 5px;
+	font-size: 12px;
+	min-height: 25px;
+	height: 30px;
+}
+
+#userlogs-settings-wrap .userlogs_cron_button {
+	font-size: 12px;
+	min-height: 25px;
+	height: 30px;
+	line-height: 28px;
+}
+
+#userlogs-settings-wrap .userlogs-setting {
+	display: flex;
+	flex-direction: row;
+	padding: 5px;
+	justify-content: flex-start;
+	align-items: center;
+}
+#userlogs-settings-wrap label {
+	margin: 0 8px;
+}
+
+#userlogs-settings-wrap .userlogs-about {
+	height: 200px;
+	padding: 5px 20px;
+}
